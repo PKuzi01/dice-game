@@ -23,5 +23,6 @@ function rollDice() {
     };
 }
 
+//button
 let rollButton = document.querySelector('#button');
 rollButton.addEventListener('click', rollDice);
