@@ -34,6 +34,7 @@ body {
     border: solid 2px #132743;
     border-radius: 15px;
     transition: all ease-in-out 200ms;
+    font-size: 18px;
 }
 
 .gameboard > button:hover {
