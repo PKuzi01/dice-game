@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.hero {
+    text-align: center;
+    margin: 30px 30px;
+}
+
+.hero > h3, h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #132743;
+    text-shadow: 1px 1px #ffcbcb;
+}
+
+.gameboard {
+    text-align: center;
+    margin: 50px 30px;
+}
+
+.gameboard > h2 {
+    font-family: 'Lato', sans-serif;
+    color: #132743;
+    text-shadow: 1px 1px #ffcbcb;
+}
+
+
+
+.gameboard > button {
+    font-family: 'Lato', sans-serif;
+    padding: 20px 40px;
+    color: #132743;
+    background: #bbd8f6;
+    border: solid 2px #132743;
+    border-radius: 15px;
+    transition: all ease-in-out 200ms;
+}
+
+.gameboard > button:hover {
+    color: #bbd8f6;
+    background: #132743;
+    border: solid 2px #bbd8f6;
+}
+
+.footer {
+    text-align: center;
+    margin: 60px auto;
+}
+
+.footer > footer {
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+}
+
+.footer > footer > a {
+    text-decoration: none;
+    color: #132743;
+    text-shadow: 1px 1px #ffcbcb;
+}
+
+.footer > footer > a:hover {
+    text-decoration: underline;
+}
